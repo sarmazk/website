@@ -7,7 +7,7 @@ export default function Heading() {
     const { toggleColorMode } = useColorMode()
     const logocolor = useColorModeValue('black', 'white')
     const bgcolor = useColorModeValue('white', 'black')
-    return (<Flex bg={bgcolor} width='100%' justify='space-between' borderRadius='md' shadow='lg' align='center' p={2}>
+    return (<><Flex bg={bgcolor} width='100%' justify='space-between' borderRadius='md' shadow='lg' align='center' p={2}>
     <Img src='/sarmalogo.png' alt='SarmaZK' width='50px'/>
     <Text fontWeight='bold' color={logocolor}>SarmaZK</Text>
     <Spacer/>
@@ -23,5 +23,5 @@ export default function Heading() {
         </Link>
         <Button leftIcon={<ImContrast />} onClick={toggleColorMode}/>
     </HStack>
-    </Flex>)
+    </Flex><br/><br/></>)
 }
