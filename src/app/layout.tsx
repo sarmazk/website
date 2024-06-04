@@ -1,4 +1,4 @@
-import { fonts } from './fonts.ts'
+import { fonts } from './fonts'
 import { Providers } from './providers'
 
 export default function RootLayout({
