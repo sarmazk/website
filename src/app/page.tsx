@@ -17,7 +17,7 @@ export default function Page() {
         within the Ethereum Virtual Machine (EVM), leveraging Zero Knowledge
         (ZK) proofs for secure and private data movement across EVM
         blockchains. Our technology, which utilizes the encrypted data structure
-        'Sarma'—akin to Aleo's 'record'—enables private smart contract
+        'Sarma', enables private smart contract
         interactions without relinquishing the security and transparency of public
         blockchains. This innovation addresses significant privacy challenges in
         blockchain applications, enhancing both security and usability, making
